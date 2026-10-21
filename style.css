@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(237, 234, 229);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.left-container {
+    width: 700px;
+    padding-left: 20px;
+}
+
+.right-container {
+    width: 700px;
+}
+
+.left-container>p {
+    font-size: 20px;
+}
+
+#top-title {
+    display: flex;
+    flex-direction: row;
+}
+
+#circle {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#top-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#green {
+    color: green;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#explore-btn {
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+#about-btn {
+    background-color: rgb(237, 234, 229);
+    border: none;
+    width: 200px;
+    height: 70px;
+}
+
+#main-page-img {
+    width: 700px;
+    height: 600px;
+}
+
+hr {
+    margin-top: 20px;
+    color: grey;
+}
+
+
+.bottom-main {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bottom-main > div {
+    flex: 1;
+    text-align: left;
+}
+
+#box1,
+#box2,
+#box3 {
+    border-right: 2px solid grey;
+    padding-right: 20px;
+}
+
+.number {
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.number-info {
+    margin: 0;
+}
+
+#box1,
+#box2,
+#box3 {
+    border-right: 2px solid grey;
+    margin-right: 20px;
+}
+
+/* end first page css*/
+
+.second-page {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
+
+.page2-left {
+    width: 600px;
+}
+
+.page2-left>img {
+    width: 600px;
+    height: 400px;
+}
+
+.page2-right {
+    width: 600px;
+    margin-top: 260px;
+}
+
+.page2-right>img {
+    width: 600px;
+    height: 400px;
+}
+
+.page2-left>h2 {
+    font-size: 60px;
+}
+
+.page2-right>#intro {
+    text-align: right;
+}
+
+.page2-left>h5 {
+    font-size: 30px;
+}
+.page2-right>h5 {
+    font-size: 30px;
+}
